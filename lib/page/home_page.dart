@@ -84,14 +84,6 @@ class _HomePageState extends State<HomePage> {
              Expanded(
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 10.0),
-                // child: SingleChildScrollView(
-                //   child: Container(
-                //     padding: EdgeInsets.only(top: 20),
-                //     height: MediaQuery.of(context).size.height,
-                //     width: MediaQuery.of(context).size.width,
-                //     decoration: BoxDecoration(
-                //       color: Colors.white,
-                //     ),
                     child: ListView.builder(
                       itemCount: farmList.length,
                       itemBuilder: (context, index) {
